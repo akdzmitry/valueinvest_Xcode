@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015DA226295E2E3A00CEDB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DA225295E2E3A00CEDB99 /* AppDelegate.swift */; };
+		015DA228295E2E3A00CEDB99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DA227295E2E3A00CEDB99 /* SceneDelegate.swift */; };
+		015DA22A295E2E3A00CEDB99 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DA229295E2E3A00CEDB99 /* TableVC.swift */; };
+		015DA22D295E2E3A00CEDB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DA22B295E2E3A00CEDB99 /* Main.storyboard */; };
+		015DA232295E2E4500CEDB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015DA231295E2E4500CEDB99 /* Assets.xcassets */; };
+		015DA235295E2E4500CEDB99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DA233295E2E4500CEDB99 /* LaunchScreen.storyboard */; };
+		015DA241295E8C0C00CEDB99 /* SimpleDCFCalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DA240295E8C0C00CEDB99 /* SimpleDCFCalcVC.swift */; };
+		015DA26E2965E1D100CEDB99 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DA26D2965E1D000CEDB99 /* CustomTableViewCell.swift */; };
+		01F8AA2F298AFA13007FC987 /* valueinvest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01F8AA2D298AFA13007FC987 /* valueinvest.xcdatamodeld */; };
+		01F9787129665CDB00BE5BED /* ProcrastinatingPixie.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F9787029665CDB00BE5BED /* ProcrastinatingPixie.ttf */; };
+		01F9788C2966877F00BE5BED /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978802966877E00BE5BED /* Roboto-Light.ttf */; };
+		01F9788D2966877F00BE5BED /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978812966877E00BE5BED /* Roboto-ThinItalic.ttf */; };
+		01F9788E2966877F00BE5BED /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978822966877E00BE5BED /* Roboto-Black.ttf */; };
+		01F9788F2966877F00BE5BED /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978832966877E00BE5BED /* Roboto-Bold.ttf */; };
+		01F978902966877F00BE5BED /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978842966877E00BE5BED /* Roboto-BoldItalic.ttf */; };
+		01F978912966877F00BE5BED /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978852966877F00BE5BED /* Roboto-LightItalic.ttf */; };
+		01F978922966877F00BE5BED /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978862966877F00BE5BED /* Roboto-Medium.ttf */; };
+		01F978932966877F00BE5BED /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978872966877F00BE5BED /* Roboto-BlackItalic.ttf */; };
+		01F978942966877F00BE5BED /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978882966877F00BE5BED /* Roboto-MediumItalic.ttf */; };
+		01F978952966877F00BE5BED /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F978892966877F00BE5BED /* Roboto-Italic.ttf */; };
+		01F978962966877F00BE5BED /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F9788A2966877F00BE5BED /* Roboto-Thin.ttf */; };
+		01F978972966877F00BE5BED /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F9788B2966877F00BE5BED /* Roboto-Regular.ttf */; };
+		CA4F96A18EF8F9E9853E4764 /* Pods_valueinvest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D05E3DAFF42D3C0320813 /* Pods_valueinvest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015DA222295E2E3A00CEDB99 /* valueinvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = valueinvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015DA225295E2E3A00CEDB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		015DA227295E2E3A00CEDB99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		015DA229295E2E3A00CEDB99 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		015DA22C295E2E3A00CEDB99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		015DA231295E2E4500CEDB99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		015DA234295E2E4500CEDB99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		015DA236295E2E4500CEDB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015DA240295E8C0C00CEDB99 /* SimpleDCFCalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDCFCalcVC.swift; sourceTree = "<group>"; };
+		015DA26D2965E1D000CEDB99 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		01F8AA2E298AFA13007FC987 /* valueinvest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = valueinvest.xcdatamodel; sourceTree = "<group>"; };
+		01F9787029665CDB00BE5BED /* ProcrastinatingPixie.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProcrastinatingPixie.ttf; sourceTree = "<group>"; };
+		01F978802966877E00BE5BED /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		01F978812966877E00BE5BED /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		01F978822966877E00BE5BED /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		01F978832966877E00BE5BED /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		01F978842966877E00BE5BED /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		01F978852966877F00BE5BED /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		01F978862966877F00BE5BED /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		01F978872966877F00BE5BED /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		01F978882966877F00BE5BED /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		01F978892966877F00BE5BED /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		01F9788A2966877F00BE5BED /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		01F9788B2966877F00BE5BED /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1FD267F3333D9178B9C87E7F /* Pods-valueinvest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-valueinvest.debug.xcconfig"; path = "Target Support Files/Pods-valueinvest/Pods-valueinvest.debug.xcconfig"; sourceTree = "<group>"; };
+		A77D05E3DAFF42D3C0320813 /* Pods_valueinvest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_valueinvest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA889E6E9FDBD75095A2BDE8 /* Pods-valueinvest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-valueinvest.release.xcconfig"; path = "Target Support Files/Pods-valueinvest/Pods-valueinvest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015DA21F295E2E3A00CEDB99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4F96A18EF8F9E9853E4764 /* Pods_valueinvest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015DA219295E2E3A00CEDB99 = {
+			isa = PBXGroup;
+			children = (
+				015DA224295E2E3A00CEDB99 /* valueinvest */,
+				015DA223295E2E3A00CEDB99 /* Products */,
+				9AABCBF40393003279A75D83 /* Pods */,
+				E30CE69E14B46C6DD8042D95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		015DA223295E2E3A00CEDB99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015DA222295E2E3A00CEDB99 /* valueinvest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015DA224295E2E3A00CEDB99 /* valueinvest */ = {
+			isa = PBXGroup;
+			children = (
+				01F9785F2966548900BE5BED /* fonts */,
+				015DA247295E8CF400CEDB99 /* Data Models */,
+				015DA244295E8CCF00CEDB99 /* Views */,
+				015DA243295E8C9600CEDB99 /* Controllers */,
+				015DA25229600A6100CEDB99 /* SupportingFiles */,
+				015DA225295E2E3A00CEDB99 /* AppDelegate.swift */,
+				015DA227295E2E3A00CEDB99 /* SceneDelegate.swift */,
+				015DA236295E2E4500CEDB99 /* Info.plist */,
+			);
+			path = valueinvest;
+			sourceTree = "<group>";
+		};
+		015DA243295E8C9600CEDB99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				015DA240295E8C0C00CEDB99 /* SimpleDCFCalcVC.swift */,
+				015DA229295E2E3A00CEDB99 /* TableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		015DA244295E8CCF00CEDB99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				015DA22B295E2E3A00CEDB99 /* Main.storyboard */,
+				015DA26D2965E1D000CEDB99 /* CustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		015DA247295E8CF400CEDB99 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				01F8AA2D298AFA13007FC987 /* valueinvest.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		015DA25229600A6100CEDB99 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				015DA231295E2E4500CEDB99 /* Assets.xcassets */,
+				015DA233295E2E4500CEDB99 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		01F9785F2966548900BE5BED /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				01F978822966877E00BE5BED /* Roboto-Black.ttf */,
+				01F978872966877F00BE5BED /* Roboto-BlackItalic.ttf */,
+				01F978832966877E00BE5BED /* Roboto-Bold.ttf */,
+				01F978842966877E00BE5BED /* Roboto-BoldItalic.ttf */,
+				01F978892966877F00BE5BED /* Roboto-Italic.ttf */,
+				01F978802966877E00BE5BED /* Roboto-Light.ttf */,
+				01F978852966877F00BE5BED /* Roboto-LightItalic.ttf */,
+				01F978862966877F00BE5BED /* Roboto-Medium.ttf */,
+				01F978882966877F00BE5BED /* Roboto-MediumItalic.ttf */,
+				01F9788B2966877F00BE5BED /* Roboto-Regular.ttf */,
+				01F9788A2966877F00BE5BED /* Roboto-Thin.ttf */,
+				01F978812966877E00BE5BED /* Roboto-ThinItalic.ttf */,
+				01F9787029665CDB00BE5BED /* ProcrastinatingPixie.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		9AABCBF40393003279A75D83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FD267F3333D9178B9C87E7F /* Pods-valueinvest.debug.xcconfig */,
+				EA889E6E9FDBD75095A2BDE8 /* Pods-valueinvest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E30CE69E14B46C6DD8042D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77D05E3DAFF42D3C0320813 /* Pods_valueinvest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015DA221295E2E3A00CEDB99 /* valueinvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015DA239295E2E4500CEDB99 /* Build configuration list for PBXNativeTarget "valueinvest" */;
+			buildPhases = (
+				B8EF6A1AB61E4E9475770243 /* [CP] Check Pods Manifest.lock */,
+				015DA21E295E2E3A00CEDB99 /* Sources */,
+				015DA21F295E2E3A00CEDB99 /* Frameworks */,
+				015DA220295E2E3A00CEDB99 /* Resources */,
+				80641537CFEA56A54409B14A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = valueinvest;
+			productName = valuator;
+			productReference = 015DA222295E2E3A00CEDB99 /* valueinvest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015DA21A295E2E3A00CEDB99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					015DA221295E2E3A00CEDB99 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 015DA21D295E2E3A00CEDB99 /* Build configuration list for PBXProject "valueinvest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015DA219295E2E3A00CEDB99;
+			productRefGroup = 015DA223295E2E3A00CEDB99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015DA221295E2E3A00CEDB99 /* valueinvest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015DA220295E2E3A00CEDB99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F978962966877F00BE5BED /* Roboto-Thin.ttf in Resources */,
+				01F9787129665CDB00BE5BED /* ProcrastinatingPixie.ttf in Resources */,
+				01F978912966877F00BE5BED /* Roboto-LightItalic.ttf in Resources */,
+				01F9788C2966877F00BE5BED /* Roboto-Light.ttf in Resources */,
+				01F978942966877F00BE5BED /* Roboto-MediumItalic.ttf in Resources */,
+				01F9788E2966877F00BE5BED /* Roboto-Black.ttf in Resources */,
+				01F9788D2966877F00BE5BED /* Roboto-ThinItalic.ttf in Resources */,
+				01F978952966877F00BE5BED /* Roboto-Italic.ttf in Resources */,
+				01F978932966877F00BE5BED /* Roboto-BlackItalic.ttf in Resources */,
+				01F9788F2966877F00BE5BED /* Roboto-Bold.ttf in Resources */,
+				015DA235295E2E4500CEDB99 /* LaunchScreen.storyboard in Resources */,
+				01F978922966877F00BE5BED /* Roboto-Medium.ttf in Resources */,
+				015DA232295E2E4500CEDB99 /* Assets.xcassets in Resources */,
+				01F978972966877F00BE5BED /* Roboto-Regular.ttf in Resources */,
+				01F978902966877F00BE5BED /* Roboto-BoldItalic.ttf in Resources */,
+				015DA22D295E2E3A00CEDB99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80641537CFEA56A54409B14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-valueinvest/Pods-valueinvest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-valueinvest/Pods-valueinvest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-valueinvest/Pods-valueinvest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EF6A1AB61E4E9475770243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-valueinvest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015DA21E295E2E3A00CEDB99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DA26E2965E1D100CEDB99 /* CustomTableViewCell.swift in Sources */,
+				015DA241295E8C0C00CEDB99 /* SimpleDCFCalcVC.swift in Sources */,
+				015DA22A295E2E3A00CEDB99 /* TableVC.swift in Sources */,
+				015DA226295E2E3A00CEDB99 /* AppDelegate.swift in Sources */,
+				015DA228295E2E3A00CEDB99 /* SceneDelegate.swift in Sources */,
+				01F8AA2F298AFA13007FC987 /* valueinvest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		015DA22B295E2E3A00CEDB99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015DA22C295E2E3A00CEDB99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		015DA233295E2E4500CEDB99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015DA234295E2E4500CEDB99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015DA237295E2E4500CEDB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		015DA238295E2E4500CEDB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015DA23A295E2E4500CEDB99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD267F3333D9178B9C87E7F /* Pods-valueinvest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C72U4L2N56;
+				INFOPLIST_FILE = valueinvest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ValueInvest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzmitryakishyn.valueinvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		015DA23B295E2E4500CEDB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA889E6E9FDBD75095A2BDE8 /* Pods-valueinvest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C72U4L2N56;
+				INFOPLIST_FILE = valueinvest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ValueInvest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzmitryakishyn.valueinvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015DA21D295E2E3A00CEDB99 /* Build configuration list for PBXProject "valueinvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DA237295E2E4500CEDB99 /* Debug */,
+				015DA238295E2E4500CEDB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015DA239295E2E4500CEDB99 /* Build configuration list for PBXNativeTarget "valueinvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DA23A295E2E4500CEDB99 /* Debug */,
+				015DA23B295E2E4500CEDB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01F8AA2D298AFA13007FC987 /* valueinvest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01F8AA2E298AFA13007FC987 /* valueinvest.xcdatamodel */,
+			);
+			currentVersion = 01F8AA2E298AFA13007FC987 /* valueinvest.xcdatamodel */;
+			path = valueinvest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 015DA21A295E2E3A00CEDB99 /* Project object */;
+}

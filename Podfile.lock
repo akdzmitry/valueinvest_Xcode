@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.11)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - SwipeCellKit
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: 83c1ea97b88b0971226db5f6b8254c8a159c3181
+
+COCOAPODS: 1.8.4
