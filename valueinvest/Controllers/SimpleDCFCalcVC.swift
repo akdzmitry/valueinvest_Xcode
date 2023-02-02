@@ -18,6 +18,8 @@ class SimpleDCFCalcVC: UIViewController {
     @IBOutlet weak var FairValue: UILabel!
     @IBOutlet weak var Errors: UILabel!
     
+    
+    
     var stockTicker: String = ""
     var eps: Double = 0
     var eps10YearsInTheFuture: Double = 0
